@@ -1,0 +1,197 @@
+.container-home > div {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #171923;
+}
+
+.container-home .container-login .wrap-login {
+    width: 90vw;
+    height: 100vh;
+    background-color: #171923;
+}
+
+.logo {
+    max-width: 45px;
+    min-width: 45px;
+}
+.home {
+    height: 90vh;
+    width: 100vw;
+}
+
+.home ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.home li {
+    margin-left: 16px;
+    text-decoration: none;
+
+    font-style: inherit;
+    font-size: 20px;
+    color: #fff;
+    
+
+}
+
+.ua {
+    text-decoration: none;
+
+}
+
+.name-distri {
+    width: 80%;
+    padding: 50px;
+    align-items: center;
+    color: #fff;
+   
+
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 3px;
+
+
+    border-width: 3px;
+    border-style: solid; 
+    
+}
+
+.header {
+    width: 80%;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav span {
+    color: #fff;
+}
+
+hr {
+    width: 80%;
+}
+
+.card-princ {
+    display: inline-block;
+}
+
+.card-cupom {
+    width: 25%;
+    padding: 50px;
+    align-items: center;
+
+    float: left;
+   
+
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+
+
+    border-width: 3px;
+    border-style: solid; 
+    border-color: #fff;
+
+    background-color: 	#363636;
+}
+
+.card-cupom img {
+    max-width: 100%;
+    min-width: 100%;
+    
+}
+
+.card-cupom p {
+    max-width: 100%;
+    min-width: 100%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-cupom-2 {
+    width: 49%;
+
+    margin-top: 10%;
+    margin-left: 95px;
+    margin-right: 90px;
+    
+    color: #fff;
+    font-size: 20px;
+
+    float: left;
+
+    text-align: justify;
+}
+
+.card-fruta {
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+   
+
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+
+
+    border-width: 3px;
+    border-style: solid; 
+    border-color: #8B008B;
+
+    background-color: #4169E1;
+}
+
+.p1{
+    margin-bottom: 20px;
+}
+
+.footer-initial {
+    bottom: 0;
+        position: fixed;
+        width: 90%;
+        text-align: center;
+        color: #fff;
+
+}
+
+.sessions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logged {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logged span {
+    margin-right: 10px;
+}
+
+.logout {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+

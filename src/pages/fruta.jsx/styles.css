@@ -1,0 +1,82 @@
+.container-geral {
+    position: relative;
+}
+
+.container-painel {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #171923;
+
+}
+
+.container-painel h1 {
+    color: #FFF;
+}
+
+.options-container {
+    display: flex;
+}
+
+.options {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 16px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.option-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.option-img img {
+    width: 100%;
+}
+
+.options p {
+    position: absolute;
+    bottom: 8px;
+}
+
+.container-produto {
+    margin-top: 4rem;
+    background: #fff;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+}
+
+table th {
+    color: var(--text);
+    font-weight: 400;
+    padding: 1rem 2rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+table td {
+    padding: 1rem 2rem;
+    border: 0;
+    background: var(--white);
+    color: var(--text);
+    border-radius: 0.25rem;
+}
+
+table td:first {
+    color: #FFF;
+}
